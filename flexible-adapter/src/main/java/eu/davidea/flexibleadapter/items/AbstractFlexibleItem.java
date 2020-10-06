@@ -192,4 +192,5 @@ public abstract class AbstractFlexibleItem<VH extends RecyclerView.ViewHolder>
     public void onViewDetached(FlexibleAdapter<IFlexible> adapter, VH holder, int position) {
     }
 
+    public abstract String getId();
 }
